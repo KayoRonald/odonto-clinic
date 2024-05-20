@@ -18,7 +18,6 @@ type HeaderProps = {
 
 const Header = ({ children }: HeaderProps) => (
   <chakra.header
-    borderTop="8px solid #ff5400"
     shadow="md"
     transition="all 0.5s ease-in-out"
     pos="fixed"
@@ -60,7 +59,7 @@ export default function NavHero() {
             {/* <DesktopNav /> */}
             {/* <Link>A</Link> */}
             <ButtonGroup>
-              <Button bg="blue.300">Contats us</Button>
+              <Button bg="blue.300">Contact</Button>
             </ButtonGroup>
             {/* <MobileNav /> */}
           </HStack>

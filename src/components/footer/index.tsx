@@ -17,7 +17,7 @@ export function Footer() {
             <Stack spacing={6}>
               <Box>
                 <Image
-                  src="/Logo.svg"
+                  src="/logo-light.svg"
                   alt="Logo Odonto Clinic"
                   maxW={"13rem"}
                 />
