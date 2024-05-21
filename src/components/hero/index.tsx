@@ -8,11 +8,16 @@ import {
   Skeleton,
   Box,
 } from "@chakra-ui/react";
-// Here we have used react-icons package for the icons
 
 const HeroSection = () => {
   return (
-    <Container maxW="6xl" px={{ base: 6, md: 3 }} py={24} color={"white"}>
+    <Container
+      maxW="6xl"
+      px={{ base: 6, md: 3 }}
+      py={24}
+      color={"white"}
+      mb={10}
+    >
       <Stack direction={{ base: "column", md: "row" }} justifyContent="center">
         <Stack
           direction="column"
@@ -38,7 +43,7 @@ const HeroSection = () => {
             treat you with judicious methods. Clinically, this has repercussions
             on the predictability and high durability of the work performed.
           </Text>
-          {/* botão */}
+         {/* botão */}
         </Stack>
         <Box ml={{ base: 0, md: 5 }} pos="relative">
           <DottedBox />
