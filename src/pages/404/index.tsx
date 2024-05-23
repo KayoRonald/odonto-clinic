@@ -7,10 +7,11 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import { Layout } from "../../layout";
 
 export function Error404() {
   return (
-    <>
+    <Layout title="Not found">
       <Flex
         flexDirection="column"
         minHeight="100vh"
@@ -52,6 +53,6 @@ export function Error404() {
           </Box>
         </Box>
       </Flex>
-    </>
+    </Layout>
   );
 }

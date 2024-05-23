@@ -2,11 +2,12 @@ import {
   Box,
   Container,
   Image,
-  Link,
   Flex,
   Stack,
   Text,
+  Link,
 } from "@chakra-ui/react";
+import { Link as ReactLink} from "react-router-dom";
 
 export function Footer() {
   return (
@@ -15,7 +16,7 @@ export function Footer() {
         <Container as={Stack} maxW={"6xl"} py={10}>
           <Flex justify={'space-between'} gap={10} flexDirection={{ base: 'column', md: 'row' }}>
             <Stack spacing={6}>
-              <Box>
+              <Box as={ReactLink} to={"/"}>
                 <Image
                   src="/logo-light.svg"
                   alt="Logo Odonto Clinic"
@@ -28,12 +29,12 @@ export function Footer() {
             </Stack>
             <Box display={"flex"} flexDirection={"row"} gap={40}>
             <Stack>
-              <Link href={"#"}>Home</Link>
-              <Link href={"#"}>Specialists</Link>
-              <Link href={"#"}>Services</Link>
+              <Link as={ReactLink} to={"#"}>Home</Link>
+              <Link as={ReactLink} to={"#"}>Specialists</Link>
+              <Link as={ReactLink} to={"#"}>Services</Link>
             </Stack> <Stack>
-              <Link href={"#"}>Privacy policies</Link>
-              <Link href={"#"}>Terms of use</Link>
+              <Link as={ReactLink} to={"#"}>Privacy policies</Link>
+              <Link as={ReactLink} to={"#"}>Terms of use</Link>
             </Stack>
             </Box>            
           </Flex>
