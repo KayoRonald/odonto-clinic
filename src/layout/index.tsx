@@ -1,20 +1,13 @@
 import React from "react";
 import { Footer } from "../components/footer";
 import NavHero from "../components/header";
-import { Helmet } from 'react-helmet'
-interface LayoutProps {
-  title: string;
-  children: React.ReactNode;
-}
+import { Outlet } from "react-router-dom";
 
-export function Layout({ title, children }: LayoutProps) {
+export function Layout() {
   return (
     <React.Fragment>
-      <Helmet>
-        <title>Odonto Clinic - {title}</title>
-      </Helmet>
       <NavHero />
-      {children}
+      <Outlet/>
       <Footer />
     </React.Fragment>
   );

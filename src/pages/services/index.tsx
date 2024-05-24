@@ -1,9 +1,10 @@
-import { Layout } from "../../layout";
+import { Helmet } from "react-helmet-async";
 
 export default function Services() {
   return (
-    <Layout title="services">
+    <>
+      <Helmet title="Services" />
       <h1>Services</h1>
-    </Layout>
+    </>
   );
 }
