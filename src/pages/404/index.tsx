@@ -47,7 +47,7 @@ export function Error404() {
                 rounded="lg"
                 maxW="500px"
                 loading="lazy"
-                src="/Error 404 - SVG.svg"
+                src="/svg/Error 404 - SVG.svg"
                 alt="Página não encontrada"
               />
             </Center>

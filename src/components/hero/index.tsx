@@ -52,7 +52,7 @@ const HeroSection = () => {
             h="100%"
             minW={{ base: "auto", md: "30rem" }}
             objectFit="cover"
-            src={`/Home - SVG.svg`}
+            src={`/svg/Home - SVG.svg`}
             rounded="md"
             fallback={<Skeleton />}
           />

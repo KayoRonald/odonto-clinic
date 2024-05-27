@@ -60,7 +60,7 @@ export default function NavHero() {
           <Flex>
             <VisuallyHidden>Logo</VisuallyHidden>
             <Box as={ReactLink} to="/">
-              <Image src="/Logo.svg" alt="Logo Odonto Clinic" maxW={"10rem"} />
+              <Image src="/svg/Logo.svg" alt="Logo Odonto Clinic" maxW={"10rem"} />
             </Box>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>

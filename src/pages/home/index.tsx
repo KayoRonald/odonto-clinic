@@ -2,6 +2,7 @@ import {
   AspectRatio,
   Box,
   Button,
+  Center,
   Container,
   Flex,
   Heading,
@@ -52,22 +53,23 @@ export function Home() {
           justifyContent="center"
         >
           {" "}
-          <Box>
+          <Center>
             <Image
               w="100%"
               h="100%"
               minW={{ base: "auto", md: "30rem" }}
               objectFit="cover"
-              src={`/Specialists - SVG.svg`}
+              src={`/svg/Specialists - SVG.svg`}
               rounded="md"
+              maxW={300}
               fallback={<Skeleton />}
             />
-          </Box>
+          </Center>
           <Flex
             justify={"center"}
             align={"center"}
             px={{ base: 6, md: 3 }}
-            py={24}
+            py={5}
           >
             <Stack
               direction="column"

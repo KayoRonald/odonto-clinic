@@ -18,7 +18,7 @@ export function Footer() {
             <Stack spacing={6}>
               <Box as={ReactLink} to={"/"}>
                 <Image
-                  src="/logo-light.svg"
+                  src="/svg/logo-light.svg"
                   alt="Logo Odonto Clinic"
                   maxW={"13rem"}
                 />
