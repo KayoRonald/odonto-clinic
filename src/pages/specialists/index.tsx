@@ -1,12 +1,10 @@
 import {
   AspectRatio,
   Box,
-  Button,
   Center,
   Container,
   Flex,
   Image,
-  Link,
   Stack,
   Text,
   chakra,
