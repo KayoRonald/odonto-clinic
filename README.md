@@ -1,79 +1,100 @@
+Aqui está um README mais detalhado para o projeto **Odonto Clinic**, incluindo informações adicionais e especificações sobre as tecnologias:
+
+---
+
 <h1 align="center">
     <strong>Odonto Clinic</strong>
 </h1>
 
-
 <p align="center">
-    <img src="./public/Thumbnail.png"/>
+    <img src="./public/Thumbnail.png" alt="Odonto Clinic Thumbnail"/>
 </p>
 
+## Sobre o projeto
 
-### **💻 Tecnologias e Dependência**
+**Odonto Clinic** é um website desenvolvido para uma clínica odontológica, visando melhorar a experiência dos pacientes e fornecer informações essenciais sobre os serviços oferecidos. O site foi projetado para ser visualmente atraente e intuitivo, permitindo que os usuários encontrem informações sobre os tratamentos, conheçam os especialistas, leiam depoimentos e localizem a clínica. A interface moderna e responsiva foi construída com foco em usabilidade e acessibilidade.
 
-Esse projeto foi feito utilizando as seguintes tecnologias:
+## 💻 Tecnologias e Dependências
 
-| Tecnologias | Sites |
-| ------ | ------ |
-| Vite | https://vitejs.dev/guide/ |
-| Chakra-ui | https://chakra-ui.com/ |
-| TypeScript | https://www.typescriptlang.org/ |
+Esse projeto foi desenvolvido com as seguintes tecnologias e bibliotecas:
 
+| Tecnologias | Versão | Links |
+|-------------|--------|-------|
+| Vite        | ^5.2.0 | [Vite](https://vitejs.dev/guide/) |
+| Chakra UI   | ^2.8.2 | [Chakra UI](https://chakra-ui.com/) |
+| TypeScript  | ^5.2.2 | [TypeScript](https://www.typescriptlang.org/) |
 
-### 🚀 **Como rodar o projeto?**
+### Principais Bibliotecas Utilizadas
 
- **Pré-requisito**
- 
-<blockquote>
+- **Chakra UI v2**: Biblioteca de componentes estilizados que facilita a criação de interfaces acessíveis e responsivas. A versão 2 traz novas funcionalidades e melhorias em comparação com a versão anterior.
+- **React Icons**: Para ícones vetoriais reutilizáveis em diferentes partes do layout.
+- **Google Maps Integration**: Um mapa interativo para ajudar os usuários a localizar a clínica com facilidade.
 
-- É necessário possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador (recomendado a versão LTS).
+## 🚀 Como rodar o projeto?
 
-- Também, é preciso ter um gerenciador de pacotes o npm e npx já vem por padrão ao instalar o node.j ou **[Yarn](https://www.npmjs.com/package/yarn)**.
+### Pré-requisitos
 
-- É necessário possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
-  
-</blockquote>
+Certifique-se de ter os seguintes requisitos instalados:
 
-<br/>
+- **[Node.js](https://nodejs.org/en/)** (versão LTS recomendada)
+- **[Git](https://git-scm.com/)** para clonar o repositório
+- Um gerenciador de pacotes: **npm** (instalado com o Node.js) ou **[Yarn](https://www.npmjs.com/package/yarn)**
 
-**1. Faça um clone do repositório:**
+### 1. Clonando o repositório
 
-```bash 
-  https://github.com/KayoRonald/odonto-clinic/
-```
-
-**2. Executando a Aplicação:**
-
-Abrindo o terminal, você pode executar o seguinte comando para entrar no diretório do projeto:
+Clone o projeto para sua máquina local:
 
 ```bash
-  cd odonto-clinic
+git clone https://github.com/KayoRonald/odonto-clinic/
 ```
 
-**3. Como instalar as dependências**
-Nesse caso, você pode usar o yarn ou npm para instalar e rodar a aplicação.
+### 2. Navegando para o diretório do projeto
+
+Abra o terminal e vá para o diretório do projeto:
 
 ```bash
-yarn 
+cd odonto-clinic
 ```
+
+### 3. Instalando as dependências
+
+Instale todas as dependências do projeto usando **yarn** ou **npm**:
+
 ```bash
+# Usando yarn
+yarn
+
+# Usando npm
 npm install
 ```
 
-**4. Como rodar o projeto**
+### 4. Rodando a aplicação
+
+Inicie o servidor de desenvolvimento com o comando:
 
 ```bash
+# Usando yarn
 yarn dev
-```
-```bash
+
+# Usando npm
 npm run dev
 ```
 
-<hr/>
-<p align="center">
-  <img src="./public/vite.svg" width="100" title="Nextjs">
-  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--tTOh_tYS--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/30i03zlfl3tprbo2m6ug.png" width="150" alt="TypeScript" title="TypeScript">
-  <img src="https://d2eip9sf3oo6c2.cloudfront.net/playlists/square_covers/000/505/265/full/chakra-lv1.png" width="100" alt="chakra" title="chakra"
-</p>
+A aplicação estará disponível no endereço `http://localhost:5173/` ou em outra porta definida pelo Vite.
 
-### 📝 **Licença**
-Esse projeto está sobre a licença MIT. Veja o arquivo **[LICENSE](LICENSE)** para mais detalhes.
+## 📋 Funcionalidades
+
+- Página inicial com informações sobre os serviços e especialidades
+- Seção de depoimentos de clientes
+- Mapa interativo com a localização da clínica
+- Layout responsivo para uma melhor experiência em dispositivos móveis
+- Integração com o Chakra UI v2 para uma interface mais moderna e estilizada
+
+
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,ts,vite,figma" />
+  </a>
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo **[LICENSE](LICENSE)** para mais detalhes.
