@@ -1,7 +1,3 @@
-Aqui está um README mais detalhado para o projeto **Odonto Clinic**, incluindo informações adicionais e especificações sobre as tecnologias:
-
----
-
 <h1 align="center">
     <strong>Odonto Clinic</strong>
 </h1>
